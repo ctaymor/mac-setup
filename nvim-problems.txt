@@ -1,0 +1,11 @@
+Hit a few problems. One about startify...
+
+One about SemshiBufWipeout:
+```
+Error detected while processing BufWipeout Autocommands for "*":
+E117: Unknown function: SemshiBufWipeout
+```
+Github issues suggesgt the fix may be running `:UpdateRemotePlugins` but I couldn't do that.
+
+Things got weird, so I quit nvim and restarted.
+I got an `Error on execute python script: request error nvim_command - Vim(pyxfile):E319: No "python3" provider found. Run ":checkhealth provider"` 
