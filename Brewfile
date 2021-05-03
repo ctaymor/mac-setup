@@ -8,3 +8,6 @@ brew "python3"
 
 cask "iterm2"
 cask "slack"
+
+# Window shifter
+cask "rectangle"
