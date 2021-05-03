@@ -12,4 +12,5 @@ fi
 # Also matches "set viminfo='100,n$HOME/.vim/files/info/viminfo'" in vimrc
 #mkdir -p ~/.vim/files/info
 
+python3 -m pip install --user --upgrade pynvim
 git clone https://github.com/luan/nvim ~/.config/nvim
