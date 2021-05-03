@@ -12,3 +12,9 @@ cask "slack"
 
 # Window shifter
 cask "rectangle"
+
+# setting up for ruby development with Heroku
+brew "rbenv"
+tap "heroku/brew"
+brew "heroku"
+brew "postgres"
