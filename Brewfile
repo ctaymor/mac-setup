@@ -18,3 +18,14 @@ brew "rbenv"
 tap "heroku/brew"
 brew "heroku"
 brew "postgres"
+brew "yarn"
+
+# setting up for php/laraval development
+brew "php@8.0"
+
+# Command Line Utilities
+brew "z" # fast fuzzy-find directory changer
+brew "the_silver_searcher" # ag
+
+# Has tools like sha256sum, others
+brew "coreutils"
