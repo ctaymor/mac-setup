@@ -12,6 +12,8 @@ cask "slack"
 
 # Window shifter
 cask "rectangle"
+# Clipboard for copy history
+cask "flycut"
 
 # setting up for ruby development with Heroku
 brew "rbenv"
