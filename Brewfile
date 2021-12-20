@@ -28,6 +28,17 @@ brew "php@8.0"
 # Command Line Utilities
 brew "z" # fast fuzzy-find directory changer
 brew "the_silver_searcher" # ag
-
+brew "tree" # show file tree
 # Has tools like sha256sum, others
 brew "coreutils"
+#useful json processor
+brew "jq"
+
+# Command Line Prompt
+brew "romkatv/powerlevel10k/powerlevel10k"
+
+# Using Docker
+brew "docker-compose"
+
+#Architecture decision records
+brew "adr-tools"
