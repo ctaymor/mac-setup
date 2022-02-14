@@ -40,8 +40,6 @@ brew "htop"
 # Edit Command line in vi or emacs style
 brew "readline"
 
-brew "aws"
-
 # Command Line Prompt
 brew "romkatv/powerlevel10k/powerlevel10k"
 
