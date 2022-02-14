@@ -26,6 +26,7 @@ brew "ruby-build"
 
 # setting up for php/laraval development
 brew "php@8.0"
+brew "nvm"
 
 # Command Line Utilities
 brew "z" # fast fuzzy-find directory changer
