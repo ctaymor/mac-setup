@@ -22,6 +22,7 @@ tap "heroku/brew"
 brew "heroku"
 brew "postgres"
 brew "yarn"
+brew "ruby-build"
 
 # setting up for php/laraval development
 brew "php@8.0"
@@ -34,6 +35,11 @@ brew "tree" # show file tree
 brew "coreutils"
 #useful json processor
 brew "jq"
+brew "htop"
+# Edit Command line in vi or emacs style
+brew "readline"
+
+brew "aws"
 
 # Command Line Prompt
 brew "romkatv/powerlevel10k/powerlevel10k"
