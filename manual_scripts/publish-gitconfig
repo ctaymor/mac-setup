@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -eux
+
+echo "This script overwrites any global git config set with the command line"
+
+cp ./dotfiles/gitconfig ~/.gitconfig

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -eux
+
+echo "Saving any git config set via the command line"
+cp ~/.gitconfig ${HOME}/workspace/mac-setup/dotfiles/gitconfig
