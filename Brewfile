@@ -38,6 +38,8 @@ brew "jq"
 brew "htop"
 # Edit Command line in vi or emacs style
 brew "readline"
+# tldr pages are like simplified man pages, with examples. Super helpful!
+brew "tldr"
 
 # Command Line Prompt
 brew "romkatv/powerlevel10k/powerlevel10k"
