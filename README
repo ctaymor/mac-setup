@@ -9,3 +9,9 @@ NEXT:
 Download and install the following manually:
 
 [Docker](https://docs.docker.com/docker-for-mac/install/)
+
+ctaymor (use --recurse-submodules) tech: git@github.com:ctaymor/ctaymor-tech.git
+
+Drashot markdown (more likely stale): git@github.com:ctaymor/drashot-md.git
+
+Drashot blog: git@github.com:ctaymor/drashot_blog.git
