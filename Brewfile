@@ -49,3 +49,7 @@ brew "docker-compose"
 
 #Architecture decision records
 brew "adr-tools"
+
+# Personal website tools
+brew "hugo"
+brew "gcloud"
