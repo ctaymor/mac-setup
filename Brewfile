@@ -20,7 +20,6 @@ cask "flycut"
 brew "rbenv"
 tap "heroku/brew"
 brew "heroku"
-brew "postgres"
 brew "postgresql"
 brew "yarn"
 brew "ruby-build"
@@ -53,4 +52,7 @@ brew "adr-tools"
 
 # Personal website tools
 brew "hugo"
-brew "gcloud"
+#brew "gcloud"
+
+#Azure dev
+brew "az"
