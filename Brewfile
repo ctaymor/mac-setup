@@ -21,6 +21,7 @@ brew "rbenv"
 tap "heroku/brew"
 brew "heroku"
 brew "postgres"
+brew "postgresql"
 brew "yarn"
 brew "ruby-build"
 
