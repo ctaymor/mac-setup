@@ -18,3 +18,11 @@ eval "$(rbenv init -)"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# zsh's default history is very small, so we make it bigger
+export SAVEHIST=100000 # Number of commands stored in history file
+export HISTSIZE=50000
+setopt INC_APPEND_HISTORY # append commands to file immediately, not on shell close
+setopt HIST_IGNORE_ALL_DUPS # Don't write duplicate commands to history
+setopt HIST_IGNORE_SPACE # Don't write commands that start with a space to history
+
+
