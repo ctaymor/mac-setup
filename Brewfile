@@ -40,6 +40,8 @@ brew "htop"
 brew "readline"
 # tldr pages are like simplified man pages, with examples. Super helpful!
 brew "tldr"
+brew "certbot" # Generate certs with lets encrypt
+brew "nmap"
 
 # Command Line Prompt
 brew "romkatv/powerlevel10k/powerlevel10k"
@@ -56,3 +58,7 @@ brew "hugo"
 
 #Azure dev
 brew "az"
+brew "helm"
+
+# Digital Ocean for bookwyrm
+brew "doctl"
