@@ -62,3 +62,7 @@ brew "helm"
 
 # Digital Ocean for bookwyrm
 brew "doctl"
+
+# Twilio for Trestle
+tap "twilio/brew"
+brew "twilio"
