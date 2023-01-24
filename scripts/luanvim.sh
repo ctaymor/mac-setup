@@ -15,6 +15,7 @@ fi
 python3 -m pip install --user --upgrade pynvim
 git clone https://github.com/luan/nvim ~/.config/nvim
 
+mkdir -p ~/.config/nvim/lua/user
 ln -s ~/workspace/mac-setup/dotfiles/nvim/user/plugins.lua ~/.config/nvim/lua/user/plugins.lua
 
 nvim + PackerSync
