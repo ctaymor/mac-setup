@@ -43,6 +43,8 @@ brew "tldr"
 brew "certbot" # Generate certs with lets encrypt
 brew "nmap"
 
+# Git Project management
+brew 'just'
 # Command Line Prompt
 brew "romkatv/powerlevel10k/powerlevel10k"
 
