@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# INSTALL NODE VERSION MANAGER
 set -eux
 
 # install or update
