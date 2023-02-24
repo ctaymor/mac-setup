@@ -42,6 +42,8 @@ brew "readline"
 brew "tldr"
 brew "certbot" # Generate certs with lets encrypt
 brew "nmap"
+brew "asdf"
+
 
 # Git Project management
 brew 'just'
@@ -68,3 +70,14 @@ brew "doctl"
 # Twilio for Trestle
 tap "twilio/brew"
 brew "twilio"
+
+# Elixer
+brew "autoconf"
+brew "openssl@1.1"
+brew "wxwidgets"
+brew "libxslt"
+brew "fop"
+
+
+# k8s
+brew "minikube"
