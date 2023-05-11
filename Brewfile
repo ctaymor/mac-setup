@@ -23,6 +23,7 @@ brew "heroku"
 brew "postgresql"
 brew "yarn"
 brew "ruby-build"
+brew 'watch'
 
 # setting up for php/laraval development
 brew "php@8.0"
@@ -80,4 +81,12 @@ brew "fop"
 
 
 # k8s
+brew "kubernetes-cli"
 brew "minikube"
+brew "kustomize"
+
+brew "gpg"
+brew "git-crypt"
+brew "s3cmd"
+brew "pg_dump"
+
