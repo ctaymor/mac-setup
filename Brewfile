@@ -24,8 +24,6 @@ brew "postgresql"
 brew "yarn"
 brew "ruby-build"
 
-# setting up for php/laraval development
-brew "php@8.0"
 
 # Command Line Utilities
 brew "z" # fast fuzzy-find directory changer
@@ -83,3 +81,10 @@ brew "fop"
 
 # k8s
 brew "minikube"
+brew "kustomize"
+
+brew "gpg"
+brew "git-crypt"
+brew "s3cmd"
+brew "libpq" # Postgres tools library
+brew "libidn" # Needed to build extensions for mastodon
