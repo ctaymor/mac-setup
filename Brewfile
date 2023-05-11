@@ -90,5 +90,5 @@ brew "kustomize"
 brew "gpg"
 brew "git-crypt"
 brew "s3cmd"
-brew "pg_dump"
-
+brew "libpq" # Postgres tools library
+brew "libidn" # Needed to build extensions for mastodon
