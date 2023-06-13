@@ -1,15 +1,1 @@
-zsh
-nvim
-gnu-sed
-postgresql
-z
-the_silver_searcher
-tree
-watch
-coreutils
-jq
-htop
-tldr
-certbot
-nmap
-just
+zsh neovim postgresql z silversearcher-ag tree watch coreutils jq htop tldr certbot nmap just
