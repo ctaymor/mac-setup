@@ -92,3 +92,4 @@ brew "git-crypt"
 brew "s3cmd"
 brew "libpq" # Postgres tools library
 brew "libidn" # Needed to build extensions for mastodon
+brew "caddy" # tiny proxy server for docker apps. installs the cli
