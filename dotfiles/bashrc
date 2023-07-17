@@ -1,0 +1,3 @@
+. $HOME/workspace/z/z.sh
+# Add krew bin to path. This is installed with scripts/k8s-krew, and is used for kubectl plugin management
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
