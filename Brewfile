@@ -30,6 +30,7 @@ brew "z" # fast fuzzy-find directory changer
 brew "the_silver_searcher" # ag
 brew "tree" # show file tree
 brew "watch" # watch a command, polling every n seconds
+brew "shellcheck"
 
 # Has tools like sha256sum, others
 brew "coreutils"

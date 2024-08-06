@@ -4,6 +4,9 @@ alias i := install
 about:
   @echo "This repo is setup for Caroline's dev env"
 
+check-scripts:
+  find scripts -type f \( -name '*.sh' \) | \xargs shellcheck -x
+
 bundle:
   brew bundle
 
