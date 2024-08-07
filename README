@@ -6,6 +6,8 @@ Scripts to setup a mac workstation how I like it.
 
 ## Improvements TODO:
 [ ] Run shellcheck on vim save (or on commit?)
+[ ] Add Notion?
+[ ] Add Intellij
 
 Download and install the following manually:
 
