@@ -3,31 +3,7 @@ Scripts to setup a mac workstation how I like it.
 ## TO FIX:
 ### 8/6/24
 [ ] shell load error: `mac/Users/ctaymor/.zshrc:.:14: no such file or directory: /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme`
-[ ] Nvim Treesitter error
-```Error detected while processing /Users/ct
-aymor/.local/share/nvim/site/pack/packer/
-start/nvim-treesitter/plugin/nvim-treesit
-ter.lua:
-E5113: Error while calling lua chunk: ...
-m/0.10.1/share/nvim/runtime/lua/vim/trees
-itter/query.lua:651: Overriding existing
-predicate has-ancestor?
-stack traceback:
-        [C]: in function 'error'
-        ...m/0.10.1/share/nvim/runtime/lu
-a/vim/treesitter/query.lua:651: in functi
-on 'add_predicate'
-        ...nvim-treesitter/lua/nvim-trees
-itter/query_predicates.lua:64: in main ch
-unk
-        [C]: in function 'require'
-        ...ack/packer/start/nvim-treesitt
-er/lua/nvim-treesitter.lua:8: in main chu
-nk
-        [C]: in function 'require'
-        .../packer/start/nvim-treesitter/
-plugin/nvim-treesitter.lua:9: in main chu
-nk```
+[ ] Telescope isn't working right - the fzf extension isn't loading correctly.
 
 ## Improvements TODO:
 [ ] Run shellcheck on vim save (or on commit?)
