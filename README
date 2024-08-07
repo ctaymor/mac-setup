@@ -1,5 +1,6 @@
 Scripts to setup a mac workstation how I like it.
 
+
 ## TO FIX:
 ### 8/6/24
 [ ] shell load error: `mac/Users/ctaymor/.zshrc:.:14: no such file or directory: /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme`
@@ -8,6 +9,11 @@ Scripts to setup a mac workstation how I like it.
 [ ] Run shellcheck on vim save (or on commit?)
 [ ] Add Notion?
 [ ] Add Intellij
+
+# Usage
+## pre-setup on brand new mac
+1. Download xtools from the app store (theoretcially `xcode-select --install` will work, but it doesn't always)
+2. 
 
 Download and install the following manually:
 
