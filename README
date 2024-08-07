@@ -3,7 +3,6 @@ Scripts to setup a mac workstation how I like it.
 ## TO FIX:
 ### 8/6/24
 [ ] shell load error: `mac/Users/ctaymor/.zshrc:.:14: no such file or directory: /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme`
-[ ] Telescope isn't working right - the fzf extension isn't loading correctly.
 
 ## Improvements TODO:
 [ ] Run shellcheck on vim save (or on commit?)
