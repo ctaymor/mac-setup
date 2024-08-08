@@ -14,10 +14,14 @@ Scripts to setup a mac workstation how I like it.
 
 # Usage
 ## pre-setup on brand new mac
-1. Download xtools from the app store (theoretcially `xcode-select --install` will work, but it doesn't always)
-2. 
+1. Download xtools from the app store (theoretcially `xcode-select --install` will work, but it doesn't always). This will install git
+2. Get ssh keys set up
+3. Clone this repo, and run `./install.sh`
+3. Fix any issues (check fixes in)
+3. Run `manual_scripts/publish_gitconfig`
+4. Set iterm preferences from file: iTerm2 > Settings > General > Settings > Load settings from a custom folder or URL and select the manual_scripts dir.
 
-Download and install the following manually:
+Download and install the following manually
 
 [Docker](https://docs.docker.com/docker-for-mac/install/)
 
