@@ -15,10 +15,13 @@ Scripts to setup a mac workstation how I like it.
 # Usage
 ## pre-setup on brand new mac
 1. Download xtools from the app store (theoretcially `xcode-select --install` will work, but it doesn't always). This will install git
-2. Get ssh keys set up
-3. Clone this repo, and run `./install.sh`
+2. `mkdir -p workspace/tmp` - the workspace will store git repos, and the tmp dir will store the https version of `mac-setup`, and then once you have keys and such setup, you can ssh clone to the workspace
+3. [Generate an SSH key for the computer and load to ssh agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+4. Add the SSH key to github
+5. Reclone mac-setup to `workspace/` with ssh
+3. Run `manual_scripts/publish_gitconfig`. This will set the git config, so that we can check in any changes we make.
+3. Run `./install.sh`
 3. Fix any issues (check fixes in)
-3. Run `manual_scripts/publish_gitconfig`
 4. Set iterm preferences from file: iTerm2 > Settings > General > Settings > Load settings from a custom folder or URL and select the manual_scripts dir.
 
 Download and install the following manually
