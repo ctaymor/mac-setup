@@ -9,8 +9,7 @@ Scripts to setup a mac workstation how I like it.
 [ ] Run shellcheck on vim save (or on commit?)
 [ ] Add Notion?
 [ ] Add Intellij
-[ ] iterm preferences like Dark mode?
-[ ] why is command prompt not getting set properly by powerlevel10k
+[ ] Setup Telescope to be able to find hidden files (like github actions in `.github/`
 
 # Usage
 ## pre-setup on brand new mac
