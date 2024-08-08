@@ -49,7 +49,7 @@ brew "asdf"
 # Git Project management
 brew 'just'
 # Command Line Prompt
-brew "powerlevel10k"
+brew 'pure'
 
 # Using Docker
 brew "docker-compose"
