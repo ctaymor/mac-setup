@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
 
-ln -s ~/workspace/mac-setup/dotfiles/nvim ~/.config/nvim
+set -eux
+if [ ! -e ~/.config/nvim ]; then
+  ln -s ~/workspace/mac-setup/dotfiles/nvim ~/.config/nvim
+
+else
+  echo "~/.config/nvim already exists. Not overwriting it"
+fi

@@ -2,4 +2,5 @@
 
 set -ex
 
-ln -s ~/workspace/mac-setup/dotfiles/zshrc ~/.zshrc
+ 
+ln -s ~/workspace/mac-setup/dotfiles/zshrc ~/.zshrc || echo "Unable to link zshrc. Continueing" >&2
