@@ -49,7 +49,7 @@ brew "asdf"
 # Git Project management
 brew 'just'
 # Command Line Prompt
-brew "romkatv/powerlevel10k/powerlevel10k"
+brew "powerlevel10k"
 
 # Using Docker
 brew "docker-compose"
