@@ -93,3 +93,4 @@ brew "libidn" # Needed to build extensions for mastodon
 # AWS tools for STW
 brew "aws-sso-cli"
 brew "awscli"
+cask "ngrok"
