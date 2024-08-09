@@ -41,11 +41,13 @@ alias vim="nvim"
 # Add krew bin to path. This is installed with scripts/k8s-krew, and is used for kubectl plugin management
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
-# Used for aws sso cli
+# Used for aws sso cli which is for STW
 autoload -Uz +X compinit && compinit
 autoload -Uz +X bashcompinit && bashcompinit
+# For STW
+alias aws-dev="aws-sso-profile dev:AdministratorAccess"
 
-# BEGIN_AWS_SSO_CLI
+# BEGIN_AWS_SSO_CLI for STW
 
 # AWS SSO requires `bashcompinit` which needs to be enabled once and
 # only once in your shell.  Hence we do not include the two lines:
