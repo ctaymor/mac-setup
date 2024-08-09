@@ -9,12 +9,16 @@ return {
 		'nvim-tree/nvim-web-devicons',
 		{ 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
 	},
-	-- TOFIX This does not appear to be working. When I checkhealth, I do not see fzf in the extensions list. Also, when I close and reopen vim, I get an error about fzf not existing. Something isn't building properly, I think.
 	config = function ()
 		require('telescope').setup({
 			extensions = { 
 				fzf = {
 					fuzzy = true,
+				}
+			},
+			pickers = {
+				find_files = { -- this sets up find_files to include dotfiles but NOT .gitignore. A different command is needed for .gitignore
+					find_command = { "rg", "--files", "--hidden" }
 				}
 			}
 		})
