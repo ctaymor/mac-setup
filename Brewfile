@@ -52,6 +52,7 @@ brew 'just'
 brew 'pure'
 
 # Using Docker
+brew "docker"
 brew "docker-compose"
 
 #Architecture decision records
