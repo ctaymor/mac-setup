@@ -90,7 +90,8 @@ brew "s3cmd"
 brew "libpq" # Postgres tools library
 brew "libidn" # Needed to build extensions for mastodon
 
-# AWS tools for STW
+# tools for STW
 brew "aws-sso-cli"
 brew "awscli"
 cask "ngrok"
+brew "python-setuptools"
