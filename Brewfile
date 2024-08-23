@@ -44,12 +44,14 @@ brew "tldr"
 brew "certbot" # Generate certs with lets encrypt
 brew "nmap"
 brew "asdf"
+brew "terraform"
 
 
 # Git Project management
 brew 'just'
 # Command Line Prompt
 brew 'pure'
+
 
 # Using Docker
 brew "docker"
@@ -90,6 +92,9 @@ brew "git-crypt"
 brew "s3cmd"
 brew "libpq" # Postgres tools library
 brew "libidn" # Needed to build extensions for mastodon
+
+# GCP
+cask "google-cloud-sdk"
 
 # AWS
 brew "awscli"
