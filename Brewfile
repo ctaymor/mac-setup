@@ -36,6 +36,8 @@ brew "shellcheck"
 brew "coreutils"
 #useful json processor
 brew "jq"
+# useful yaml processor wrapper on jq
+brew "yq"
 brew "htop"
 # Edit Command line in vi or emacs style
 brew "readline"
