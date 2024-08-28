@@ -33,3 +33,13 @@ require("lazy").setup({
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
+
+-- SET OPTIONS
+-- This should be able to be set in lua/config/options.lua, but for some reason, lazy.nvim isn't auto loading that like it says it will.
+
+-- Show line numbers
+vim.opt.number = true
+-- Set indentation without hard tabs #CampSpaces https://vim.fandom.com/wiki/Indenting_source_code#Indentation_without_hard_tabs
+vim.opt.expandtab = true
+vim.opt.softtabstop = 2
+vim.opt.shiftwidth = 2
