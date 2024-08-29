@@ -89,3 +89,6 @@ brew "git-crypt"
 brew "s3cmd"
 brew "libpq" # Postgres tools library
 brew "libidn" # Needed to build extensions for mastodon
+
+# AWS
+brew "awscli"
