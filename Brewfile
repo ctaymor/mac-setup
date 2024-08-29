@@ -56,6 +56,7 @@ brew 'pure'
 
 
 # Using Docker
+brew "docker"
 brew "docker-compose"
 
 #Architecture decision records
@@ -96,9 +97,12 @@ brew "libidn" # Needed to build extensions for mastodon
 
 # tools for STW
 brew "aws-sso-cli"
-brew "awscli"
-cask "google-cloud-sdk"
 cask "ngrok"
 brew "python-setuptools"
 brew "docker"
 brew "docker-buildx"
+# GCP
+cask "google-cloud-sdk"
+
+# AWS
+brew "awscli"
