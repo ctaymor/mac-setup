@@ -35,7 +35,6 @@ export TERM=xterm-256color
 export XDG_CONFIG_HOME=~/.config
 # Aliases
 alias vim="nvim"
-
 # Path additions
 
 # Add krew bin to path. This is installed with scripts/k8s-krew, and is used for kubectl plugin management
@@ -47,6 +46,7 @@ autoload -Uz +X bashcompinit && bashcompinit
 # For STW
 alias aws-dev="aws-sso-profile dev:AdministratorAccess"
 alias docker-build="docker-buildx build --build-arg NODE_OPTIONS=--max-old-space-size=16384"
+alias aws-clear='unset AWS_ACCESS_KEY_ID && unset AWS_SECRET_ACCESS_KEY && unset AWS_SESSION_TOKEN'
 # BEGIN_AWS_SSO_CLI for STW
 
 # AWS SSO requires `bashcompinit` which needs to be enabled once and
