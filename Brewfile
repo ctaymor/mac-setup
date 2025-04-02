@@ -100,3 +100,6 @@ cask "google-cloud-sdk"
 
 # AWS
 brew "awscli"
+
+# Databases
+brew "mysql"

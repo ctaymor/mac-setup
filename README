@@ -2,8 +2,8 @@ Scripts to setup a mac workstation how I like it.
 
 
 ## TO FIX:
-### 8/6/24
-[ ] shell load error: `mac/Users/ctaymor/.zshrc:.:14: no such file or directory: /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme`
+### 04/02/2015
+* Brew bundle has a bunch of casks/taps saying "No formula for Apple Silicon" and twilio takes forever or hangs, unsure which
 
 ## Improvements TODO:
 [ ] Run shellcheck on vim save (or on commit?)
