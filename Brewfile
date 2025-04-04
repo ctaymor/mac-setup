@@ -73,10 +73,6 @@ brew "helm"
 # Digital Ocean for bookwyrm
 brew "doctl"
 
-# Twilio for Trestle
-tap "twilio/brew"
-brew "twilio"
-
 # Elixer
 brew "autoconf"
 brew "openssl@1.1"
