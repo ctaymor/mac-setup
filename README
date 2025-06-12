@@ -11,6 +11,8 @@ Scripts to setup a mac workstation how I like it.
 [ ] Add Intellij
 [ ] iterm preferences like Dark mode?
 [ ] why is command prompt not getting set properly by powerlevel10k
+[ ] Colors of command prompt and terminal are too low-contrast
+[ ] Update everything installed with brew bundle and make brew bundle fast again
 
 # Usage
 ## pre-setup on brand new mac

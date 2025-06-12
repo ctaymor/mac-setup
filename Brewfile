@@ -65,6 +65,7 @@ brew "adr-tools"
 # Personal website tools
 brew "hugo"
 #brew "gcloud"
+brew "leiningen" # For clojure
 
 #Azure dev
 brew "az"
@@ -80,6 +81,8 @@ brew "wxwidgets"
 brew "libxslt"
 brew "fop"
 
+# Clojure
+brew "clojure/tools/clojure"
 
 # k8s
 brew "minikube"
@@ -99,3 +102,6 @@ brew "awscli"
 
 # Databases
 brew "mysql"
+
+#Short term use
+brew "yt-dlp"
