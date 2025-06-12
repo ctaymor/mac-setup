@@ -82,6 +82,7 @@ brew "libxslt"
 brew "fop"
 
 # Clojure
+cask "temurin@21"
 brew "clojure/tools/clojure"
 
 # k8s
