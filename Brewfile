@@ -64,7 +64,7 @@ brew "adr-tools"
 
 # Personal website tools
 brew "hugo"
-#brew "gcloud"
+brew "gcloud"
 brew "leiningen" # For clojure
 
 #Azure dev
