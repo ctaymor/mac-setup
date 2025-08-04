@@ -107,3 +107,6 @@ brew "mysql"
 #Short term use
 brew "yt-dlp"
 brew "gh" # to find repository owner id
+
+# Python dev
+brew "pyenv"
