@@ -115,3 +115,4 @@ brew "gh" # to find repository owner id
 
 # Python dev
 brew "pyenv"
+brew "typos-cli"
