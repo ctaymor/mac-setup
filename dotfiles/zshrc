@@ -35,8 +35,6 @@ export NVM_DIR="$HOME/.nvm"
 export CLICOLOR=1
 
 # Set high-contrast colors for ls output
-# LSCOLORS format: directory, symbolic link, socket, pipe, executable, block special, character special, executable with setuid, executable with setgid, directory writable by others with sticky bit, directory writable by others without sticky bit
-export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 
 # Set colors to match iTerm2 Terminal Colors
 export TERM=xterm-256color
