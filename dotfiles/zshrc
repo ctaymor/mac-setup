@@ -1,7 +1,7 @@
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-eval "$(rbenv init -)"
-
+# Add homebrew to path
+export PATH="/opt/homebrew/bin:$PATH"
 
 # Install theme (needs to be brew installed)
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
@@ -33,7 +33,6 @@ export XDG_CONFIG_HOME=~/.config
 alias vim="nvim"
 
 # Path additions
-
 # Add krew bin to path. This is installed with scripts/k8s-krew, and is used for kubectl plugin management
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
