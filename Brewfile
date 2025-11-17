@@ -10,6 +10,7 @@ brew "tmux"
 
 cask "iterm2"
 cask "slack"
+cask "claude-code"
 
 # Window shifter
 cask "rectangle"
@@ -64,8 +65,9 @@ brew "adr-tools"
 
 # Personal website tools
 brew "hugo"
-brew "gcloud"
 brew "leiningen" # For clojure
+cask "temurin@21"
+brew "clojure/tools/clojure"
 
 #Azure dev
 brew "az"
@@ -81,9 +83,6 @@ brew "wxwidgets"
 brew "libxslt"
 brew "fop"
 
-# Clojure
-cask "temurin@21"
-brew "clojure/tools/clojure"
 
 # k8s
 brew "minikube"
