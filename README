@@ -2,16 +2,16 @@ Scripts to setup a mac workstation how I like it.
 
 
 ## TO FIX:
-### 04/02/2015
+### 11/14/2025
+* `z` installs but command not found
+* terminal colors are not being set correctly. - when I try to set dark mode on iterm, it doesn't work, and the colors and prompt that should be set in my zshrc aren't working either.
+
+### 04/02/2025
+
 * Brew bundle has a bunch of casks/taps saying "No formula for Apple Silicon" and twilio takes forever or hangs, unsure which
 
 ## Improvements TODO:
-[ ] Run shellcheck on vim save (or on commit?)
-[ ] Add Notion?
-[ ] Add Intellij
-[ ] iterm preferences like Dark mode?
-[ ] why is command prompt not getting set properly by powerlevel10k
-[ ] Colors of command prompt and terminal are too low-contrast
+[ ] 
 [ ] Update everything installed with brew bundle and make brew bundle fast again
 
 # Usage
