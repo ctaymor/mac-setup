@@ -10,6 +10,7 @@ brew "tmux"
 
 cask "iterm2"
 cask "slack"
+cask "claude-code"
 
 # Window shifter
 cask "rectangle"
