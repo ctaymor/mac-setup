@@ -31,6 +31,8 @@ export TERM=xterm-256color
 export XDG_CONFIG_HOME=~/.config
 # Aliases
 alias vim="nvim"
+alias glcoud="gcloud" #typo-proof
+
 
 # Path additions
 # Add krew bin to path. This is installed with scripts/k8s-krew, and is used for kubectl plugin management
