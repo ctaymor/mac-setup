@@ -1,3 +1,6 @@
+# Taps
+tap "steveyegge/beads"
+
 # used by luanvim
 brew "npm"
 brew "ripgrep" # superfast grep replacement used by the search plugins
@@ -10,7 +13,10 @@ brew "tmux"
 
 cask "iterm2"
 cask "slack"
+
+# LLM management
 cask "claude-code"
+brew "bd"
 
 # Window shifter
 cask "rectangle"
