@@ -104,8 +104,6 @@ symlink_preferences() {
     done
 }
 
-<<<<<<< HEAD
-=======
 symlink_skills() {
     local dotfiles_claude_dir="$1"
     local source_skills_dir="$dotfiles_claude_dir/skills"
@@ -125,8 +123,11 @@ symlink_skills() {
         create_symlink_if_needed "$skill_item" "$target_skills_dir/$item_name"
     done
 }
+<<<<<<< HEAD
 
 >>>>>>> 2bc28bb6d1d387013755edb33725a17d06a9ee42
+=======
+>>>>>>> fbcc70b (Add a lookup-docs skill)
 main() {
     ensure_claude_directory_initialized
 
@@ -143,10 +144,7 @@ main() {
     symlink_custom_snippets "$dotfiles_claude_dir"
     symlink_claude_md "$dotfiles_claude_dir"
     symlink_preferences "$dotfiles_claude_dir"
-<<<<<<< HEAD
-=======
     symlink_skills "$dotfiles_claude_dir"
->>>>>>> 2bc28bb6d1d387013755edb33725a17d06a9ee42
 
     echo "Done!"
 }
