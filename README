@@ -11,7 +11,7 @@ Scripts to setup a mac workstation how I like it.
 * Brew bundle has a bunch of casks/taps saying "No formula for Apple Silicon" and twilio takes forever or hangs, unsure which
 
 ## Improvements TODO:
-[ ] 
+[ ] Improve branching workflow for client-specific configs vs upstream contributions (e.g., gitmessage exists on some branches but not others)
 [ ] Update everything installed with brew bundle and make brew bundle fast again
 
 # Usage

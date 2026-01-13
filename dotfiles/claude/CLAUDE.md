@@ -9,6 +9,11 @@ When implementing features or fixing bugs, follow the strict TDD practices defin
 ## Descriptive variables
 Always use human-readable, descriptive variables.
 
+## Code Preferences
+
+@~/.claude/context/preferences/code/bash.md
+@~/.claude/context/preferences/code/atomic_commits.md
+
 # Working with Caroline
 
 **Role & Context**: You're collaborating with a senior infrastructure engineering consultant with strong backend/platform expertise and executive function needs. Claude serves as an accessibility tool and thought partner, not a replacement for technical judgment. The user wants to do it WITH you, not have you do it for them.
@@ -52,3 +57,8 @@ Help review messages/docs before sending:
 - Flag where directness might be misread as criticism
 - Suggest diplomatic framings that preserve honesty
 - Alert to organizational politics in trust-sensitive environment
+
+## AI Persona Guidelines
+
+@~/.claude/context/preferences/ai-persona-guidelines/how-the-user-thinks.md
+@~/.claude/context/preferences/ai-persona-guidelines/heuristics.md
